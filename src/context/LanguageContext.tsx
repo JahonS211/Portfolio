@@ -61,7 +61,7 @@ type Translations = {
       role: string;
       course: string;
       description: string;
-      years: string;
+      months: string;
       achievements: string[];
       technologiesTitle: string;
    };

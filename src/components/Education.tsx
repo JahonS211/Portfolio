@@ -91,7 +91,7 @@ export default function Education() {
                      </div>
                      <div className="flex items-center gap-2 bg-gray-100 dark:bg-white/5 px-4 py-2 rounded-xl">
                         <Clock size={18} className="text-green-500" />
-                        <span className="text-sm font-medium dark:text-gray-300 text-gray-700">2 {t.education.years}</span>
+                        <span className="text-sm font-medium dark:text-gray-300 text-gray-700">24 {t.education.months}</span>
                      </div>
                   </div>
 
