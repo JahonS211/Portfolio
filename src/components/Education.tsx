@@ -144,7 +144,7 @@ export default function Education() {
                         <div className="text-xs text-gray-500 dark:text-gray-400">Year duration</div>
                      </div>
                      <div className="p-6 rounded-[24px] glass-ios text-center">
-                        +<div className="text-3xl font-bold text-green-500 mb-1">7+</div>
+                        <div className="text-3xl font-bold text-green-500 mb-1">7+</div>
                         <div className="text-xs text-gray-500 dark:text-gray-400">Technology</div>
                      </div>
                   </div>
