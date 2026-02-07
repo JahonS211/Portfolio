@@ -91,7 +91,7 @@ export default function Education() {
                      </div>
                      <div className="flex items-center gap-2 bg-gray-100 dark:bg-white/5 px-4 py-2 rounded-xl">
                         <Clock size={18} className="text-green-500" />
-                        <span className="text-sm font-medium dark:text-gray-300 text-gray-700">11 {t.education.months}</span>
+                        <span className="text-sm font-medium dark:text-gray-300 text-gray-700">2 {t.education.months}</span>
                      </div>
                   </div>
 
@@ -136,15 +136,15 @@ export default function Education() {
 
                   <div className="grid grid-cols-3 gap-4 pt-4">
                      <div className="p-6 rounded-[24px] glass-ios text-center">
-                        <div className="text-3xl font-bold text-green-500 mb-1">10+</div>
+                        <div className="text-3xl font-bold text-green-500 mb-1">15+</div>
                         <div className="text-xs text-gray-500 dark:text-gray-400">Projects</div>
                      </div>
                      <div className="p-6 rounded-[24px] glass-ios text-center">
-                        <div className="text-3xl font-bold text-green-500 mb-1">11</div>
-                        <div className="text-xs text-gray-500 dark:text-gray-400">Month duration</div>
+                        <div className="text-3xl font-bold text-green-500 mb-1">2</div>
+                        <div className="text-xs text-gray-500 dark:text-gray-400">Year duration</div>
                      </div>
                      <div className="p-6 rounded-[24px] glass-ios text-center">
-                        <div className="text-3xl font-bold text-green-500 mb-1">10</div>
+                        +<div className="text-3xl font-bold text-green-500 mb-1">7+</div>
                         <div className="text-xs text-gray-500 dark:text-gray-400">Technology</div>
                      </div>
                   </div>
