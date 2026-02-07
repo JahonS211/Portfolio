@@ -72,7 +72,7 @@ const translations: Record<Language, Translations> = {
       nav: { about: 'About', skills: 'Skills', projects: 'Projects', contact: 'Contact', education: 'Education' },
       hero: {
          available: 'Available for Work',
-         hi: 'Hi I am',
+         hi: 'Hi   I   am',
          role: 'Front-End \ndeveloper',
          description: 'I build accessible, pixel-perfect, secure, and performant web applications. Student at PDP School with 2 years of experience in modern web technologies.',
          viewProjects: 'View Projects',
