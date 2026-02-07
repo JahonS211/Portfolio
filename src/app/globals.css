@@ -4,8 +4,7 @@
   --color-slate-950: #020617;
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
-
+@variant dark (&:where(.dark, .dark *));
 
 @layer base {
   html {
@@ -14,6 +13,12 @@
 
   html.dark {
     color-scheme: dark;
+  }
+
+  /* Fallback: Force dark background if class is present, regardless of Tailwind variant */
+  html.dark body {
+    background-color: #000000;
+    color: #ffffff;
   }
 
   body {
