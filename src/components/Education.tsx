@@ -106,7 +106,7 @@ export default function Education() {
                </motion.div>
 
                {/* Stats / Tech Stack Side */}
-               <motion.div 
+               <motion.div
                   variants={itemVariants}
                   className="space-y-8"
                >

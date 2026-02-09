@@ -6,10 +6,10 @@ export default function Footer() {
          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
             <p>&copy; {new Date().getFullYear()} Jahongir Sadriddinov. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-               <a href="https://github.com/Jahons211" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors" aria-label="GitHub Profile">
+               <a href="https://github.com/Jahons211" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">
                   <Github size={20} />
                </a>
-               <a href="mailto:jahongirsadriddinov0@gmail.com" className="hover:text-purple-400 transition-colors" aria-label="Send Email">
+               <a href="mailto:jahongirsadriddinov0@gmail.com" className="hover:text-purple-400 transition-colors">
                   <Mail size={20} />
                </a>
                {/* Add other social links if available */}
