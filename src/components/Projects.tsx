@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 import { useLanguage } from '@/context/LanguageContext';
 
 const projects = [
@@ -117,10 +118,12 @@ export default function Projects() {
 
                   <div className="w-full h-48 mb-4 overflow-hidden rounded-xl">
                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                     <img
+                     <Image
                         src={project.image}
                         alt={project.title}
-                        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className="object-cover transform group-hover:scale-110 transition-transform duration-500"
                      />
                   </div>
 

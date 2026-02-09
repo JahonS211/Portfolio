@@ -58,6 +58,7 @@ export default function BackgroundMusic() {
       // Function to unlock audio context on any user interaction
       const unlockAudio = () => {
          if (audioRef.current) {
+            console.log("Attempting to play audio...");
             // If already playing, just cleanup
             if (!audioRef.current.paused) {
                setIsPlaying(true);
